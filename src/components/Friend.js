@@ -6,7 +6,9 @@ import styled from 'styled-components'
 // DON'T FORGET YOUR SEMICOLONS
 const StyledFriend = styled.div`
   color: ${pr => {
-    return pr.danger ? pr.theme. : pr.theme.primaryColor
+  return pr.danger
+    ? pr.theme.dangerColor
+    : pr.theme.primaryColor
   }};
   font-weight: bold;
   width: 60%;
