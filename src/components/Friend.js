@@ -1,4 +1,8 @@
 import React from 'react'
+import styled from 'styled-components'
+
+// OUTSIDE OF THE FRIEND COMPONENT
+
 
 export default function Friend({ info, action }) {
   return (
