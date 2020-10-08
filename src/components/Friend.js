@@ -24,9 +24,9 @@ export default function Friend({ info, action }) {
   return (
     <StyledFriend>
       {info.name}
-      <button onClick={() => action(info.id)}>
+      <Button onClick={() => action(info.id)}>
         See details
-      </button>
+      </Button>
     </StyledFriend>
   )
 }
