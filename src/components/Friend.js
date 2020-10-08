@@ -11,6 +11,10 @@ const StyledFriend = styled.div`
   display: flex;
   justify-content: space-between;
 
+  @media (max-width: 550px) {
+    width: 100%;
+  }
+
   button {
     color: grey;
   }
