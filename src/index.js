@@ -7,6 +7,6 @@ import theme from './theme'
 import './styles.css'
 
 render(
-  <ThemeProvider><App /></ThemeProvider>,
+  <ThemeProvider theme={theme}><App /></ThemeProvider>,
   document.querySelector('#root')
 )
