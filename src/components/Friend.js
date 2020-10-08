@@ -15,6 +15,7 @@ const StyledFriend = styled.div`
   }
   button {
     color: ${pr => pr.theme.tertiaryColor};
+    &
   }
   &:hover {
     color: ${pr => pr.theme.secondaryColor};
