@@ -17,7 +17,7 @@ const StyledFriend = styled.div`
     color: grey;
   }
   &:hover {
-    color: green;
+    color: ${pr => pr.};
   }
 `
 
