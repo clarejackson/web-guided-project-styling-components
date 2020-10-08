@@ -26,6 +26,7 @@ const StyledFriend = styled.div`
 // `
 
 export default function Friend(props) {
+  const { bold, info, action } = props
   return (
     <StyledFriend bold={bold} danger={info.name === 'Josh'}>
       {info.name}
