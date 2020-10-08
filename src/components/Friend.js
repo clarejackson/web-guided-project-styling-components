@@ -19,6 +19,7 @@ const StyledFriend = styled.div`
   &:hover {
     color: ${pr => pr.theme.secondaryColor};
     background-color: cyan;
+    transition: all 
   }
 `
 
