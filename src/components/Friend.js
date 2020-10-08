@@ -2,14 +2,8 @@ import React from 'react'
 import styled, { keyframes } from 'styled-components'
 
 const kf = keyframes`
-  0% {
-
-  }
-  20% {
-
-  }
   100% {
-    
+    opacity: 1;
   }
 `
 
@@ -18,6 +12,7 @@ const kf = keyframes`
 // DON'T FORGET YOUR SEMICOLONS
 const StyledFriend = styled.div`
   opacity: 0;
+  animation: 
   color: ${pr => pr.danger ? pr.theme.dangerColor : pr.theme.primaryColor};
   font-weight: ${pr => pr.bold ? 'bold' : 'initial'};
   width: 60%;
