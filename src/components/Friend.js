@@ -1,5 +1,7 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
+
+
 
 // OUTSIDE OF THE FRIEND COMPONENT
 // CAPITALIZE THE SC
