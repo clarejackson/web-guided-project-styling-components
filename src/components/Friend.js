@@ -16,6 +16,10 @@ const StyledFriend = styled.div`
   }
 `
 
+const Button = styled.button`
+  color: pink;
+`
+
 export default function Friend({ info, action }) {
   return (
     <StyledFriend>
