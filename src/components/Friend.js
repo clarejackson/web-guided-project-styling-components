@@ -1,7 +1,17 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
 
+const kf = keyframes`
+  0% {
 
+  }
+  20% {
+
+  }
+  100% {
+    
+  }
+`
 
 // OUTSIDE OF THE FRIEND COMPONENT
 // CAPITALIZE THE SC
