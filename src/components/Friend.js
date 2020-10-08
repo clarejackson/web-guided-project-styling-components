@@ -11,6 +11,10 @@ const StyledFriend = styled.div`
   display: flex;
   justify-content: space-between;
 
+  button {
+    color: grey;
+  }
+
   &:hover {
     color: green;
   }
