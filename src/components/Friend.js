@@ -10,15 +10,12 @@ const StyledFriend = styled.div`
   width: 60%;
   display: flex;
   justify-content: space-between;
-
   @media (max-width: 550px) {
     width: 100%;
   }
-
   button {
     color: grey;
   }
-
   &:hover {
     color: green;
   }
