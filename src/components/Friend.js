@@ -14,10 +14,10 @@ const StyledFriend = styled.div`
     width: 100%;
   }
   button {
-    color: grey;
+    color: ${pr => pr.theme.tertiaryColor};
   }
   &:hover {
-    color: ${pr => pr.};
+    color: ${pr => pr.theme.secondaryColor};
   }
 `
 
