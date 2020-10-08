@@ -6,7 +6,7 @@ import styled from 'styled-components'
 // DON'T FORGET YOUR SEMICOLONS
 const StyledFriend = styled.div`
   color: ${pr => pr.danger ? pr.theme.dangerColor : pr.theme.primaryColor};
-  font-weight: bold;
+  font-weight: ${};
   width: 60%;
   display: flex;
   justify-content: space-between;
@@ -25,9 +25,9 @@ const StyledFriend = styled.div`
 //   color: pink;
 // `
 
-export default function Friend({ info, action }) {
+export default function Friend({ bold, info, action }) {
   return (
-    <StyledFriend danger={info.name === 'Josh'}>
+    <StyledFriend bold={bold} danger={info.name === 'Josh'}>
       {info.name}
       <button onClick={() => action(info.id)}>
         See details
