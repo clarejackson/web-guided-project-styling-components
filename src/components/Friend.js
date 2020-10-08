@@ -6,6 +6,10 @@ import styled from 'styled-components'
 // DON'T FORGET YOUR SEMICOLONS
 const StyledFriend = styled.div`
   color: red;
+  font-weight: bold;
+
+  
+
 `
 
 export default function Friend({ info, action }) {
