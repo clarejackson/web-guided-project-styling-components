@@ -5,7 +5,9 @@ import styled from 'styled-components'
 // CAPITALIZE THE SC
 // DON'T FORGET YOUR SEMICOLONS
 const StyledFriend = styled.div`
-  color: ${pr => pr.theme.primaryColor};
+  color: ${pr => {
+    return pr.danger ? pr.theme. : pr.theme.primaryColor
+  }};
   font-weight: bold;
   width: 60%;
   display: flex;
