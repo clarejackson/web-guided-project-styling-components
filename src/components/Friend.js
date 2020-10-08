@@ -27,7 +27,7 @@ const StyledFriend = styled.div`
 
 export default function Friend({ info, action }) {
   return (
-    <StyledFriend>
+    <StyledFriend danger={info.name === 'Josh'}>
       {info.name}
       <button onClick={() => action(info.id)}>
         See details
