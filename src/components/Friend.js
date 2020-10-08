@@ -12,7 +12,7 @@ const kf = keyframes`
 // DON'T FORGET YOUR SEMICOLONS
 const StyledFriend = styled.div`
   opacity: 0;
-  animation: 
+  animation: ${kf} 0.5s ease-in-out forwards;
   color: ${pr => pr.danger ? pr.theme.dangerColor : pr.theme.primaryColor};
   font-weight: ${pr => pr.bold ? 'bold' : 'initial'};
   width: 60%;
