@@ -16,17 +16,17 @@ const StyledFriend = styled.div`
   }
 `
 
-const Button = styled.button`
-  color: pink;
-`
+// const Button = styled.button`
+//   color: pink;
+// `
 
 export default function Friend({ info, action }) {
   return (
     <StyledFriend>
       {info.name}
-      <Button onClick={() => action(info.id)}>
+      <button onClick={() => action(info.id)}>
         See details
-      </Button>
+      </button>
     </StyledFriend>
   )
 }
