@@ -2,8 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 
 // OUTSIDE OF THE FRIEND COMPONENT
-const StyledFriend = styled.div``
-
+// 
+const StyledFriend = styled.div`
+  color: red;
+`
 
 export default function Friend({ info, action }) {
   return (
